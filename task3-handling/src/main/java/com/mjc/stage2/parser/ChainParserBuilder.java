@@ -10,7 +10,7 @@ public class ChainParserBuilder {
     }
 
     public ChainParserBuilder setParser(AbstractTextParser abstractTextParser) {
-        // Write your code here!
+        parsers.add(abstractTextParser);
         return this;
     }
 
