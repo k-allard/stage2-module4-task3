@@ -13,6 +13,6 @@ public class RectangleObserver implements Observer {
         double side = rectangle.getSideA();
         double side2 = rectangle.getSideA();
         RectangleWarehouse.getInstance().put(rectangle.getId(),
-                new RectangleValues(side * side2, side * 2 + side2 + 2));
+                new RectangleValues(side * side2, (side * 2) + (side2 * 2)));
     }
 }
